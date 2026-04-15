@@ -1,0 +1,11 @@
+{
+  "name": "AGL Elite CI",
+  "description": "Auto-detect Web3 + SaaS projects and run optimized CI pipelines.",
+  "iconName": "octicon zap",
+  "categories": ["JavaScript", "Node", "Solidity"],
+  "filePatterns": [
+    "package.json$",
+    "contracts/.*",
+    "backend/.*"
+  ]
+}
