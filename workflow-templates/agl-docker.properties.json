@@ -1,0 +1,9 @@
+{
+  "name": "AGL Docker Build",
+  "description": "Build Docker images for deployment.",
+  "iconName": "octicon package",
+  "categories": ["Docker"],
+  "filePatterns": [
+    "Dockerfile$"
+  ]
+}
