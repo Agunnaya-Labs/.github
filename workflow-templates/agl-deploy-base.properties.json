@@ -1,0 +1,9 @@
+{
+  "name": "AGL Base Deploy",
+  "description": "Manual deployment of smart contracts to Base network.",
+  "iconName": "octicon rocket",
+  "categories": ["Solidity"],
+  "filePatterns": [
+    "contracts/.*"
+  ]
+}
