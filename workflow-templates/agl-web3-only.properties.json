@@ -1,0 +1,10 @@
+{
+  "name": "AGL Web3 Only",
+  "description": "Smart contract compilation and testing pipeline.",
+  "iconName": "octicon cube",
+  "categories": ["Solidity"],
+  "filePatterns": [
+    "contracts/.*",
+    "hardhat.config.js$"
+  ]
+}
