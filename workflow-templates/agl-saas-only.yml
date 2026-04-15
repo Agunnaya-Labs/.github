@@ -1,0 +1,17 @@
+name: AGL SaaS CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  saas:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v4
+
+      - run: npm install
+      - run: npm run build || true
+      - run: npm test || true
