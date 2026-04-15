@@ -1,0 +1,10 @@
+{
+  "name": "AGL SaaS Pipeline",
+  "description": "Backend + frontend CI pipeline for SaaS apps.",
+  "iconName": "octicon server",
+  "categories": ["Node"],
+  "filePatterns": [
+    "backend/.*",
+    "src/.*"
+  ]
+}
