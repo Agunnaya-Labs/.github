@@ -1,0 +1,13 @@
+name: AGL Docker Build
+
+on:
+  push:
+
+jobs:
+  docker:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - run: docker build -t agl-app .
